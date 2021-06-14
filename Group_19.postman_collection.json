@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "d1ba1611-6913-4b54-bb57-5180c06fd208",
+		"name": "Group_19",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api/v2/projects",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "/api/v2/projects",
+					"path": [
+						"api",
+						"v2",
+						"projects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"auth_token\":\"/s34lfgbj/None/jjd909/19538kjkWpqc2907None190569evny\",\r\n\"age\": 40,\r\n\"name\":\"tester\",\r\n\"salary\": 10}  ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://116.203.27.46:5002/user_info",
+					"protocol": "http",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"user_info"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
